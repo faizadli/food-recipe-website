@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Detail - Recipe Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar (same as other pages) -->
+    <nav class="navbar navbar-expand-lg fixed-top custom-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-utensils"></i>
+                Recipe Website
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="recipes.html">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5 recipe-detail">
+        <div class="row">
+            <!-- Recipe Header -->
+            <div class="col-12 mb-4 mt-4">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="recipes.html">Recipes</a></li>
+                        <li class="breadcrumb-item active" aria-current="page" id="recipe-title"><!--Recipe Name--></li>
+                    </ol>
+                </nav>
+            </div>
+
+            <!-- Recipe Image and Quick Info -->
+            <div class="col-lg-6 mb-4">
+                <img id="recipe-image" src="" alt="" class="img-fluid rounded shadow-sm">
+                <div class="quick-info mt-3">
+                    <span class="badge recipe-badge me-2 mb-2">Category</span>
+                    <div class="d-flex justify-content-between mt-3">
+                        <div class="info-item">
+                            <i class="far fa-clock"></i>
+                            <span id="prep-time"></span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-fire"></i>
+                            <span id="cook-time"></span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-user-friends"></i>
+                            <span id="servings"></span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-signal"></i>
+                            <span id="difficulty"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Recipe Description and Nutrition -->
+            <div class="col-lg-6 mb-4">
+                <h1 id="recipe-title-header" class="mb-3"><!--Recipe Name--></h1>
+                <p id="recipe-description" class="lead mb-4"><!--Recipe description goes here.--></p>
+                
+                <div class="nutrition-info p-3 rounded">
+                    <h3 class="h5 mb-3">Nutrition Information</h3>
+                    <div class="row text-center">
+                        <div class="col-3">
+                            <div class="nutrition-item">
+                                <h4 class="h6">Calories</h4>
+                                <p id="calories"></p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="nutrition-item">
+                                <h4 class="h6">Protein</h4>
+                                <p id="protein"></p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="nutrition-item">
+                                <h4 class="h6">Carbs</h4>
+                                <p id="carbs"></p>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="nutrition-item">
+                                <h4 class="h6">Fat</h4>
+                                <p id="fat"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ingredients -->
+            <div class="col-lg-4 mb-4">
+                <div class="ingredients-section p-4 rounded">
+                    <h2 class="h3 mb-4">Ingredients</h2>
+                    <ul class="ingredients-list" id="ingredients-list">
+                        <!-- Ingredients will be dynamically inserted here -->
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Instructions -->
+            <div class="col-lg-8 mb-4">
+                <div class="instructions-section p-4 rounded">
+                    <h2 class="h3 mb-4">Instructions</h2>
+                    <ol class="instructions-list" id="instructions-list">
+                        <!-- Instructions will be dynamically inserted here -->
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-light py-4">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2024 Recipe Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/recipe-detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,511 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Pancakes with Maple Syrup",
+      "category": "breakfast",
+      "image": "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=500",
+      "description": "Fluffy homemade pancakes served with pure maple syrup and fresh berries.",
+      "cookTime": "20 mins",
+      "prepTime": "10 mins",
+      "servings": 4,
+      "difficulty": "Easy",
+      "badge": {
+        "text": "Breakfast",
+        "class": "bg-primary"
+      },
+      "nutritionInfo": {
+        "calories": "320",
+        "protein": "8g",
+        "carbs": "45g",
+        "fat": "12g"
+      },
+      "ingredients": [
+        "2 cups all-purpose flour",
+        "2 tablespoons sugar",
+        "2 teaspoons baking powder",
+        "1/2 teaspoon salt",
+        "2 large eggs",
+        "1 3/4 cups milk",
+        "1/4 cup melted butter",
+        "1 teaspoon vanilla extract",
+        "Maple syrup for serving",
+        "Fresh berries for garnish"
+      ],
+      "instructions": [
+        "In a large bowl, whisk together flour, sugar, baking powder, and salt.",
+        "In another bowl, beat the eggs, then add milk, melted butter, and vanilla.",
+        "Pour the wet ingredients into the dry ingredients and whisk until just combined.",
+        "Heat a non-stick griddle or pan over medium heat.",
+        "Pour about 1/4 cup batter for each pancake.",
+        "Cook until bubbles form on top, then flip and cook other side until golden.",
+        "Serve warm with maple syrup and fresh berries."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Mediterranean Salad",
+      "category": "vegetarian",
+      "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500",
+      "description": "Fresh Mediterranean salad with feta cheese, olives, and homemade dressing.",
+      "cookTime": "15 mins",
+      "prepTime": "15 mins",
+      "servings": 2,
+      "difficulty": "Easy",
+      "badge": {
+        "text": "Vegetarian",
+        "class": "bg-success"
+      },
+      "nutritionInfo": {
+        "calories": "280",
+        "protein": "7g",
+        "carbs": "22g",
+        "fat": "18g"
+      },
+      "ingredients": [
+        "2 cups mixed salad greens",
+        "1 cucumber, diced",
+        "2 tomatoes, cut into wedges",
+        "1/2 red onion, thinly sliced",
+        "1/2 cup kalamata olives",
+        "200g feta cheese, cubed",
+        "2 tablespoons olive oil",
+        "1 tablespoon balsamic vinegar",
+        "1 teaspoon dried oregano",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large bowl, combine salad greens, cucumber, tomatoes, and red onion.",
+        "Add kalamata olives and feta cheese.",
+        "In a small bowl, whisk together olive oil, balsamic vinegar, and oregano.",
+        "Season the dressing with salt and pepper.",
+        "Pour the dressing over the salad.",
+        "Toss gently to combine all ingredients.",
+        "Serve immediately while fresh."
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Grilled Salmon",
+      "category": "dinner",
+      "image": "https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=500",
+      "description": "Perfectly grilled salmon with lemon herb butter and roasted vegetables.",
+      "cookTime": "30 mins",
+      "prepTime": "15 mins",
+      "servings": 2,
+      "difficulty": "Medium",
+      "badge": {
+        "text": "Dinner",
+        "class": "bg-danger"
+      },
+      "nutritionInfo": {
+        "calories": "420",
+        "protein": "46g",
+        "carbs": "8g",
+        "fat": "22g"
+      },
+      "ingredients": [
+        "2 salmon fillets (6 oz each)",
+        "2 tablespoons olive oil",
+        "2 tablespoons lemon juice",
+        "2 cloves garlic, minced",
+        "1 tablespoon fresh dill, chopped",
+        "1 tablespoon fresh parsley, chopped",
+        "1 teaspoon sea salt",
+        "1/2 teaspoon black pepper",
+        "1 lemon, sliced",
+        "Assorted vegetables for roasting"
+      ],
+      "instructions": [
+        "Preheat grill to medium-high heat (around 375°F).",
+        "Mix olive oil, lemon juice, garlic, herbs, salt, and pepper.",
+        "Brush salmon fillets with the herb mixture.",
+        "Place salmon on the grill, skin side down.",
+        "Grill for 4-6 minutes per side until cooked through.",
+        "Serve with roasted vegetables and lemon slices.",
+        "Garnish with additional fresh herbs if desired."
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chicken Caesar Salad",
+      "category": "lunch",
+      "image": "https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500",
+      "description": "Classic Caesar salad with grilled chicken, crispy croutons, and parmesan cheese.",
+      "cookTime": "25 mins",
+      "prepTime": "15 mins",
+      "servings": 2,
+      "difficulty": "Easy",
+      "badge": {
+        "text": "Lunch",
+        "class": "bg-warning"
+      },
+      "nutritionInfo": {
+        "calories": "380",
+        "protein": "32g",
+        "carbs": "18g",
+        "fat": "22g"
+      },
+      "ingredients": [
+        "2 chicken breasts",
+        "1 large romaine lettuce heart",
+        "1/2 cup caesar dressing",
+        "1/2 cup parmesan cheese, shaved",
+        "1 cup croutons",
+        "2 tablespoons olive oil",
+        "1 teaspoon garlic powder",
+        "Salt and pepper to taste",
+        "Lemon wedges for serving"
+      ],
+      "instructions": [
+        "Season chicken breasts with olive oil, garlic powder, salt, and pepper.",
+        "Grill chicken for 6-7 minutes per side until cooked through.",
+        "Let chicken rest for 5 minutes, then slice.",
+        "Wash and chop romaine lettuce into bite-sized pieces.",
+        "Toss lettuce with caesar dressing.",
+        "Top with sliced chicken, croutons, and parmesan shavings.",
+        "Serve with lemon wedges."
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Chocolate Lava Cake",
+      "category": "dessert",
+      "image": "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?w=500",
+      "description": "Warm chocolate cake with a gooey molten center, served with vanilla ice cream.",
+      "cookTime": "35 mins",
+      "prepTime": "20 mins",
+      "servings": 4,
+      "difficulty": "Medium",
+      "badge": {
+        "text": "Dessert",
+        "class": "bg-info"
+      },
+      "nutritionInfo": {
+        "calories": "450",
+        "protein": "6g",
+        "carbs": "48g",
+        "fat": "28g"
+      },
+      "ingredients": [
+        "200g dark chocolate",
+        "200g butter",
+        "4 eggs",
+        "200g sugar",
+        "120g all-purpose flour",
+        "2 tablespoons cocoa powder",
+        "1 teaspoon vanilla extract",
+        "Pinch of salt",
+        "Vanilla ice cream for serving",
+        "Powdered sugar for dusting"
+      ],
+      "instructions": [
+        "Preheat oven to 400°F (200°C).",
+        "Melt chocolate and butter together in a double boiler.",
+        "Whisk eggs and sugar until light and fluffy.",
+        "Fold melted chocolate mixture into egg mixture.",
+        "Sift in flour and cocoa powder, fold gently.",
+        "Pour into greased ramekins.",
+        "Bake for 12-14 minutes until edges are set but center is soft.",
+        "Serve immediately with ice cream and dusted sugar."
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Mushroom Risotto",
+      "category": "vegetarian",
+      "image": "https://images.unsplash.com/photo-1476124369491-e7addf5db371?w=500",
+      "description": "Creamy Italian risotto with wild mushrooms and freshly grated parmesan.",
+      "cookTime": "40 mins",
+      "prepTime": "15 mins",
+      "servings": 4,
+      "difficulty": "Medium",
+      "badge": {
+        "text": "Vegetarian",
+        "class": "bg-success"
+      },
+      "nutritionInfo": {
+        "calories": "380",
+        "protein": "12g",
+        "carbs": "52g",
+        "fat": "14g"
+      },
+      "ingredients": [
+        "1½ cups Arborio rice",
+        "400g mixed mushrooms",
+        "1 onion, finely chopped",
+        "3 cloves garlic, minced",
+        "1/2 cup white wine",
+        "4 cups vegetable stock",
+        "1/2 cup parmesan cheese",
+        "2 tablespoons butter",
+        "2 tablespoons olive oil",
+        "Fresh thyme and parsley"
+      ],
+      "instructions": [
+        "Heat stock in a separate pot and keep warm.",
+        "Sauté mushrooms in butter until golden, set aside.",
+        "Cook onion and garlic in olive oil until soft.",
+        "Add rice and toast for 2 minutes.",
+        "Add wine and stir until absorbed.",
+        "Add hot stock gradually, stirring constantly.",
+        "When rice is creamy, add mushrooms and parmesan.",
+        "Garnish with herbs and serve hot."
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Classic French Toast",
+      "category": "breakfast",
+      "image": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=500",
+      "description": "Golden-brown French toast dusted with powdered sugar and served with fresh strawberries.",
+      "cookTime": "25 mins",
+      "prepTime": "10 mins",
+      "servings": 4,
+      "difficulty": "Easy",
+      "badge": {
+        "text": "Breakfast",
+        "class": "bg-primary"
+      },
+      "nutritionInfo": {
+        "calories": "340",
+        "protein": "10g",
+        "carbs": "42g",
+        "fat": "15g"
+      },
+      "ingredients": [
+        "8 thick slices bread",
+        "4 large eggs",
+        "1 cup milk",
+        "1 teaspoon vanilla extract",
+        "1/2 teaspoon cinnamon",
+        "1/4 teaspoon nutmeg",
+        "2 tablespoons butter",
+        "Maple syrup",
+        "Fresh strawberries",
+        "Powdered sugar"
+      ],
+      "instructions": [
+        "Whisk together eggs, milk, vanilla, cinnamon, and nutmeg.",
+        "Dip bread slices in egg mixture, coating both sides.",
+        "Heat butter in a large skillet over medium heat.",
+        "Cook bread 2-3 minutes per side until golden.",
+        "Dust with powdered sugar.",
+        "Top with fresh strawberries.",
+        "Serve with maple syrup."
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Beef Stir Fry",
+      "category": "dinner",
+      "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=500",
+      "description": "Tender beef strips with colorful vegetables in a savory Asian-inspired sauce.",
+      "cookTime": "30 mins",
+      "prepTime": "20 mins",
+      "servings": 4,
+      "difficulty": "Medium",
+      "badge": {
+        "text": "Dinner",
+        "class": "bg-danger"
+      },
+      "nutritionInfo": {
+        "calories": "420",
+        "protein": "35g",
+        "carbs": "28g",
+        "fat": "22g"
+      },
+      "ingredients": [
+        "500g beef strips",
+        "2 bell peppers, sliced",
+        "2 carrots, julienned",
+        "1 broccoli head, cut into florets",
+        "3 tablespoons soy sauce",
+        "2 tablespoons oyster sauce",
+        "1 tablespoon sesame oil",
+        "3 cloves garlic, minced",
+        "1 inch ginger, grated",
+        "Steamed rice for serving"
+      ],
+      "instructions": [
+        "Marinate beef in soy sauce and ginger for 15 minutes.",
+        "Heat oil in a wok over high heat.",
+        "Stir-fry beef until browned, remove from wok.",
+        "Cook vegetables until crisp-tender.",
+        "Add beef back to wok.",
+        "Stir in sauces and sesame oil.",
+        "Serve hot over steamed rice."
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Quinoa Buddha Bowl",
+      "category": "vegetarian",
+      "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=500",
+      "description": "Nutritious bowl with quinoa, roasted vegetables, avocado, and tahini dressing.",
+      "cookTime": "35 mins",
+      "prepTime": "15 mins",
+      "servings": 2,
+      "difficulty": "Easy",
+      "badge": {
+        "text": "Vegetarian",
+        "class": "bg-success"
+      },
+      "nutritionInfo": {
+        "calories": "450",
+        "protein": "14g",
+        "carbs": "56g",
+        "fat": "24g"
+      },
+      "ingredients": [
+        "1 cup quinoa",
+        "2 sweet potatoes, cubed",
+        "2 cups kale, chopped",
+        "1 avocado, sliced",
+        "1 can chickpeas, drained",
+        "2 tablespoons tahini",
+        "1 lemon, juiced",
+        "2 tablespoons olive oil",
+        "Mixed seeds for topping",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook quinoa according to package instructions.",
+        "Roast sweet potatoes and chickpeas with olive oil.",
+        "Make dressing by mixing tahini, lemon juice, and water.",
+        "Massage kale with olive oil and salt.",
+        "Assemble bowls with quinoa base.",
+        "Top with roasted vegetables, chickpeas, and avocado.",
+        "Drizzle with tahini dressing and sprinkle seeds."
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Tuna Sandwich",
+      "category": "lunch",
+      "image": "https://images.unsplash.com/photo-1554433607-66b5efe9d304?w=500",
+      "description": "Classic tuna salad sandwich with lettuce, tomato on toasted whole grain bread.",
+      "cookTime": "10 mins",
+      "prepTime": "10 mins",
+      "servings": 1,
+      "difficulty": "Easy",
+      "badge": {
+        "text": "Lunch",
+        "class": "bg-warning"
+      },
+      "nutritionInfo": {
+        "calories": "320",
+        "protein": "24g",
+        "carbs": "32g",
+        "fat": "14g"
+      },
+      "ingredients": [
+        "1 can tuna, drained",
+        "2 tablespoons mayonnaise",
+        "1 celery stalk, diced",
+        "1/4 onion, finely chopped",
+        "2 slices whole grain bread",
+        "1 lettuce leaf",
+        "1 tomato slice",
+        "1 tablespoon pickle relish",
+        "Salt and pepper",
+        "Butter for toasting"
+      ],
+      "instructions": [
+        "Mix tuna, mayonnaise, celery, and onion.",
+        "Add relish, salt, and pepper to taste.",
+        "Toast bread slices until golden.",
+        "Butter the toasted bread.",
+        "Layer lettuce and tomato on bread.",
+        "Add tuna mixture.",
+        "Close sandwich and serve immediately."
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Tiramisu",
+      "category": "dessert",
+      "image": "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500",
+      "description": "Italian dessert with layers of coffee-soaked ladyfingers and mascarpone cream.",
+      "cookTime": "45 mins",
+      "prepTime": "30 mins",
+      "servings": 8,
+      "difficulty": "Medium",
+      "badge": {
+        "text": "Dessert",
+        "class": "bg-info"
+      },
+      "nutritionInfo": {
+        "calories": "380",
+        "protein": "7g",
+        "carbs": "34g",
+        "fat": "24g"
+      },
+      "ingredients": [
+        "24 ladyfinger cookies",
+        "500g mascarpone cheese",
+        "4 eggs, separated",
+        "1/2 cup sugar",
+        "2 cups strong coffee, cooled",
+        "2 tablespoons cocoa powder",
+        "1 teaspoon vanilla extract",
+        "2 tablespoons rum (optional)",
+        "Pinch of salt",
+        "Extra cocoa for dusting"
+      ],
+      "instructions": [
+        "Beat egg yolks and sugar until pale.",
+        "Add mascarpone and vanilla, mix well.",
+        "Whip egg whites until stiff peaks form.",
+        "Fold egg whites into mascarpone mixture.",
+        "Dip ladyfingers in coffee mixture.",
+        "Layer cookies and cream in dish.",
+        "Refrigerate for at least 4 hours.",
+        "Dust with cocoa before serving."
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Greek Moussaka",
+      "category": "dinner",
+      "image": "https://images.unsplash.com/photo-1599921841143-819065a55cc6?w=500",
+      "description": "Layered eggplant casserole with seasoned ground beef and béchamel sauce.",
+      "cookTime": "90 mins",
+      "prepTime": "45 mins",
+      "servings": 6,
+      "difficulty": "Hard",
+      "badge": {
+        "text": "Dinner",
+        "class": "bg-danger"
+      },
+      "nutritionInfo": {
+        "calories": "520",
+        "protein": "28g",
+        "carbs": "38g",
+        "fat": "32g"
+      },
+      "ingredients": [
+        "2 large eggplants, sliced",
+        "500g ground beef",
+        "1 onion, diced",
+        "3 cloves garlic, minced",
+        "400g crushed tomatoes",
+        "1/2 cup butter",
+        "1/2 cup flour",
+        "3 cups milk",
+        "2 eggs",
+        "Nutmeg, cinnamon, salt, pepper"
+      ],
+      "instructions": [
+        "Salt eggplant slices and let drain for 1 hour.",
+        "Make meat sauce with beef, onions, garlic, and tomatoes.",
+        "Prepare béchamel sauce with butter, flour, and milk.",
+        "Layer grilled eggplant in baking dish.",
+        "Add meat sauce layer.",
+        "Top with béchamel sauce.",
+        "Bake at 350°F for 45 minutes until golden.",
+        "Let rest 15 minutes before serving."
+      ]
+    }
+  ]
+}

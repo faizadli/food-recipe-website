@@ -21,7 +21,6 @@ footer {
     background-color: #f8f9fa;
 }
 
-/* Navbar Styling */
 .custom-navbar {
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -74,23 +73,17 @@ footer {
     width: 100%;
 }
 
-/*
-=============== 
-Home
-===============
-*/
-
 .home-poster {
     height: 65vh;
     position: relative;
-    margin-bottom: 2rem;                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     background-image: url('../assets/poster.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 20px;
-  }
-  .home-container {
+}
+
+.home-container {
     position: absolute;
     top: 0;
     left: 0;
@@ -98,208 +91,213 @@ Home
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     padding: 60px;
-  }
-
-  .home-text h1 strong{
-    font-size: 6rem;
 }
 
-  .textposter-highlight {
-    font-size: 6rem;
+.textposter-highlight {
     color: var(--primary-color);
-}
-
-.home-text p {
-    font-size: 1.2rem;
-    color: #6c757d;
-    margin: 20px 0;
-}
-  
-  @media only screen and (min-width: 768px) {
-    .home-text {
-      font-size: 4rem;
-      margin-bottom: 0;
-    }
-  }
-
-.highlight-content {
-    text-align: center;
-    margin-top: 50px;
-}
-
-.highlight-content h2 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.text-highlight {
-    font-size: 3rem;
-    font-weight: bold;
-    color: var(--primary-color);
-}
-
-.highlight-content h3 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.highlight-content p {
-    font-size: 1.2rem;
-    color: #6c757d;
-    margin-bottom: 50px;
-}
-
-.image-container {
-    position: relative;
-    width: 100%;
-    max-height: 100%;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.featured-image {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-.cook-btn {
-    position: absolute;
-    bottom: 15px;
-    right: 15px;
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1rem;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.cook-btn:hover {
-    background-color: #ff3333;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .highlight-content h2 {
-        font-size: 2.5rem;
-    }
-    .highlight-content h3 {
-        font-size: 2rem;
-    }
-    .cook-btn {
-        font-size: 1rem;
-        padding: 6px 16px;
-    }
-
-   /* Perbaikan ukuran max-width agar lebih lebar di desktop */
-.recipe-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 kolom */
-    grid-template-rows: repeat(2, auto); /* 2 baris */
-    gap: 20px;
-    justify-content: center;
-    padding: 20px;
-    max-width: 1100px; /* Ubah lebar agar lebih mirip tampilan contoh */
-    margin: auto; /* Agar tetap di tengah */
-}
-
-/* Recipe Card */
-.recipe-card {
-    background-color: white;
-    border-radius: 10px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Pastikan ukuran mengikuti grid */
-}
-
-/* Ukuran gambar diperbaiki agar seragam */
-.recipe-card img {
-    width: 100%;
-    height: 220px; /* Diperbesar agar lebih proporsional */
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-/* Media Query untuk Responsiveness */
-@media (max-width: 1024px) {
-    .recipe-container {
-        grid-template-columns: repeat(2, 1fr); /* Tetap 2 kolom */
-    }
-}
-
-@media (max-width: 768px) {
-    .recipe-container {
-        grid-template-columns: 1fr; /* Jadi 1 kolom di layar kecil */
-    }
-}
-
-/* Tombol lebih mirip dengan contoh */
-.recipe-btn {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.recipe-btn:hover {
-    background-color:#ff3333;
 }
 
 .banner {
-    position: relative;
-    width: 100%;
-    height: 400px; /* Atur tinggi sesuai kebutuhan */
+    height: 400px;
     background: url('../assets/cooking.jpeg');
     background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+    background-position: center;
     display: flex;
-    align-items: flex-end; /* Menurunkan teks */
-    padding: 0%;
+    align-items: flex-end;
 }
 
-/* Konten di dalam banner */
 .banner-content {
     background: linear-gradient(to top, #ff6b6b, transparent);
     padding: 20px;
     border-radius: 10px;
-    max-width: 400px; 
+    max-width: 400px;
 }
 
-/* Judul */
-.banner-content h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: black;
-    line-height: 1.2;
-}
-
-/* Tombol Explore */
-.explore-btn {
-    background-color: black;
-    color: white;
-    padding: 10px 20px;
+.card {
+    transition: transform 0.3s ease;
     border: none;
-    border-radius: 20px;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.explore-btn:hover {
-    background-color: #444;
+.card:hover {
+    transform: translateY(-5px);
 }
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.badge {
+    font-size: 0.8rem;
+    padding: 0.5em 1em;
+}
+
+.card-body i {
+    color: #6c757d;
+}
+
+.btn-outline-primary {
+    border-color: #ff6b6b;
+    color: #ff6b6b;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    color: white;
+}
+
+.pagination {
+    margin-bottom: 2rem;
+}
+
+.pagination .page-link {
+    color: #ff6b6b;
+    padding: 0.5rem 1rem;
+    margin: 0 3px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    color: white;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.pagination .page-link:hover {
+    background-color: #ffe5e5;
+    border-color: #ff6b6b;
+    color: #ff6b6b;
+}
+
+.pagination .page-item.active .page-link:hover {
+    background-color: #ff6b6b;
+    color: white;
+}
+
+footer {
+    position: relative; 
+    margin-top: 2rem;
+    background-color: #f8f9fa;
+}
+
+.input-group .btn-primary {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+.input-group .btn-primary:hover {
+    background-color: #ff5252;
+    border-color: #ff5252;
+}
+
+.form-select:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
+}
+
+.category-buttons .btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: all 0.3s ease;
+}
+
+.category-buttons .btn.active {
+    background-color: #ff6b6b;
+    color: white;
+    border-color: #ff6b6b;
+}
+
+.category-buttons .btn:hover {
+    background-color: #ff6b6b;
+    color: white;
+    border-color: #ff6b6b;
+    transform: translateY(-2px);
+}
+
+/* Recipe Detail Page Styles */
+.recipe-detail {
+    padding-top: 2rem;
+}
+
+.recipe-badge {
+    font-size: 0.9rem;
+    padding: 0.5em 1.2em;
+    background-color: #ff6b6b;
+    color: white;
+}
+
+.quick-info {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.info-item {
+    color: #6c757d;
+}
+
+.info-item i {
+    margin-right: 0.5rem;
+    color: #ff6b6b;
+}
+
+.nutrition-info {
+    background-color: #f8f9fa;
+    margin-top: 2rem;
+}
+
+.nutrition-item {
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.nutrition-item h4 {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.nutrition-item p {
+    color: #ff6b6b;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.ingredients-section, .instructions-section {
+    background-color: #f8f9fa;
+    height: 100%;
+}
+
+.ingredients-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.ingredients-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.instructions-list li {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+.breadcrumb a {
+    color: #ff6b6b;
+    text-decoration: none;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
 }
