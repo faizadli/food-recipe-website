@@ -9,16 +9,11 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 main {
     flex: 1;
     padding-top: 100px; /* Increase padding to prevent content from being hidden under navbar */
     margin-top: 0; /* Remove the previous margin-top */
-}
-footer {
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    background-color: #f8f9fa;
 }
 
 .custom-navbar {
@@ -185,10 +180,85 @@ footer {
     color: white;
 }
 
-footer {
-    position: relative; 
-    margin-top: 2rem;
-    background-color: #f8f9fa;
+/* Footer Styling */
+.footer-section {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    padding: 3rem 0 1.5rem;
+    margin-top: auto;
+    width: 100%;
+}
+
+.footer-title {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+.footer-social a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 1.5rem;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+    color: var(--primary-color);
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-bottom: 0;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .mb-0 {
+    position: relative;
+    padding: 0 15px;
+}
+
+footer .mb-0::before,
+footer .mb-0::after {
+    content: '•';
+    color: var(--primary-color);
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+footer .mb-0::before {
+    left: -5px;
+}
+
+footer .mb-0::after {
+    right: -5px;
 }
 
 .input-group .btn-primary {
@@ -300,4 +370,36 @@ footer {
 
 .breadcrumb a:hover {
     text-decoration: underline;
+}
+
+/* Contact Page Styles */
+.contact-info, .contact-form {
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.social-links .btn {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
 }
