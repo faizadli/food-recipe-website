@@ -42,8 +42,8 @@
     <main class="container my-5">
         <header class="home-poster">
             <div class="home-container">
-              <div class="home-text">
-                <h1 class="display-1"><strong>Explore</strong> <br> <span class="textposter-highlight">the Flavour.</span></h1>
+                            <div class="home-text">
+                <h1 class="display-1"><strong>Explore</strong> <br> <span class="textposter-highlight"><strong>the Flavour.</strong></span></h1>
                 <p class="lead">Homemade goodness with easy-to-follow recipes that make dish unforgettable.</p>
               </div>
             </div>
@@ -56,30 +56,133 @@
                     <h3 class="display-5">with our recipes.</h3>
                     <p class="lead">We are a home to variety of recipes worldwide for you to learn.</p>
                 </div>
-                <div class="image-container">
-                    <img src="../assets/chef.jpeg" alt="Delicious Food" class="img-fluid rounded">
-                    <button class="btn btn-primary cook-btn">Cook Now</button>
-                </div>                
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="image-container">
+                            <img src="../assets/chef.jpeg" alt="Delicious Food" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card welcome-card">
+                            <img src="../assets/plating.jpeg" class="card-img-top" alt="Food Plating">
+                            <div class="card-body text-center">
+                                <p class="card-text">Welcome to Recipe Website, your go-to destination for discovering delicious recipes from around the world! 🍽️</p>
+                                <a href="about.html" class="btn btn-outline-primary">More About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Popular Recipes Section -->
+        <section class="popular-recipes my-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Today's Popular <span class="text-highlight">Recipes</span></h2>
+                <div class="row g-4 mb-4">
+                    <!-- Recipe Card 1 -->
+                    <div class="col-md-4">
+                        <!-- Recipe Card 1 -->
+                        <div class="card h-100">
+                            <img src="https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=500" class="card-img-top" alt="Pancakes">
+                            <div class="card-body">
+                                <span class="badge bg-primary mb-2">Breakfast</span>
+                                <h5 class="card-title">Pancakes with Maple Syrup</h5>
+                                <p class="card-text">Fluffy homemade pancakes served with pure maple syrup and fresh berries.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">
+                                        <i class="far fa-clock me-1"></i>20 mins
+                                        <i class="fas fa-user-friends ms-3 me-1"></i>4 servings
+                                    </small>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary mt-3 w-100">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Recipe Card 2 -->
+                    <div class="col-md-4">
+                        <!-- Recipe Card 2 -->
+                        <div class="card h-100">
+                            <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=500" class="card-img-top" alt="Mediterranean Salad">
+                            <div class="card-body">
+                                <span class="badge bg-success mb-2">Vegetarian</span>
+                                <h5 class="card-title">Mediterranean Salad</h5>
+                                <p class="card-text">Fresh Mediterranean salad with feta cheese, olives, and homemade dressing.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">
+                                        <i class="far fa-clock me-1"></i>15 mins
+                                        <i class="fas fa-user-friends ms-3 me-1"></i>2 servings
+                                    </small>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary mt-3 w-100">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Recipe Card 3 -->
+                    <div class="col-md-4">
+                        <!-- Recipe Card 3 -->
+                        <div class="card h-100">
+                            <img src="https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=500" class="card-img-top" alt="Grilled Salmon">
+                            <div class="card-body">
+                                <span class="badge bg-danger mb-2">Dinner</span>
+                                <h5 class="card-title">Grilled Salmon</h5>
+                                <p class="card-text">Perfectly grilled salmon with lemon herb butter and roasted vegetables.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <small class="text-muted">
+                                        <i class="far fa-clock me-1"></i>30 mins
+                                        <i class="fas fa-user-friends ms-3 me-1"></i>2 servings
+                                    </small>
+                                </div>
+                                <a href="#" class="btn btn-outline-primary mt-3 w-100">View Recipe</a>
+                            </div>
+                        </div>
+                    </div>
+                                                                        </div>
+                <div class="text-center mt-4">
+                    <a href="recipes.html" class="btn btn-outline-primary">View All Recipes</a>
+                </div>
             </div>
         </section>
 
         <section class="my-5">
             <div class="banner rounded">
                 <div class="banner-content">
-                    <h1 class="display-4">Let's Get<br>Into Cooking!</h1>
-                    <button class="btn btn-dark rounded-pill px-4">Explore Recipes</button>
+                    <h1 class="display-2 fw-bold">Let's Get<br>Into Cooking!</h1>
+                    <button class="btn btn-outline-primary rounded px-4">Explore Recipes</button>
                 </div>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-light py-4">
-        <div class="container text-center">
-            <p class="mb-0">&copy; 2024 Recipe Website. All rights reserved.</p>
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">About Us</h4>
+                    <p>Discover delicious recipes and cooking tips from our community of food lovers. Join us in creating memorable dining experiences.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4 class="footer-title">Connect With Us</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

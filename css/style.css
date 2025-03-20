@@ -89,24 +89,52 @@ main {
     padding: 60px;
 }
 
+.home-text strong {
+    font-weight: 800;
+}
+
 .textposter-highlight {
     color: var(--primary-color);
+    font-weight: 800;
+}
+
+.text-highlight {
+    color: var(--primary-color);
+}
+
+.popular-recipes {
+    margin: 6rem 0;  /* Increased margin top and bottom */
 }
 
 .banner {
     height: 400px;
     background: url('../assets/cooking.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position: center bottom;
     display: flex;
     align-items: flex-end;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 6rem;  /* Added margin top */
 }
 
 .banner-content {
-    background: linear-gradient(to top, #ff6b6b, transparent);
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 400px;
+    background: linear-gradient(to top, rgba(255, 107, 107, 0.9), transparent);
+    padding: 2rem;
+    width: 100%;
+    color: #ffffff;
+}
+
+.banner-content .btn-outline-primary {
+    background-color: white;
+    border-color: white;
+    color: var(--primary-color);
+}
+
+.banner-content .btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
 }
 
 .card {
@@ -403,3 +431,138 @@ footer .mb-0::after {
     border-color: var(--primary-color);
     box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
 }
+
+.highlight-content {
+    margin: 6rem 0;
+}
+
+.highlight-content .text-center {
+    margin-bottom: 3rem;
+}
+
+.highlight-content h2, 
+.highlight-content h3 {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.highlight-content h3 {
+    margin-bottom: 1.5rem;
+}
+
+.highlight-content .lead {
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-container {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 65vh;
+    margin: 2rem 0;
+    overflow: hidden;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    max-height: 65vh;
+    object-fit: cover;
+    object-position: center 30%;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.cook-btn {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    transform: none;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    padding: 8px 24px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.cook-btn:hover {
+    background-color: #ff5252;
+    border-color: #ff5252;
+    transform: translateY(-2px);
+}
+
+.welcome-card {
+    border: none;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-card .card-img-top {
+    height: 70%;
+    object-fit: cover;
+}
+
+.welcome-card .card-body {
+    padding: 1rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.welcome-card .card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0;
+    color: var(--text-color);
+}
+.popular-recipes h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 4rem;
+}
+
+.about-poster {
+    height: 50vh;
+    position: relative;
+    background-image: url('../assets/about.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    margin-bottom: 4rem;
+}
+
+.about-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.about-text {
+    color: var(--primary-color);
+}
+
+/* Remove these styles */
+.about-text h1 {
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+/* Remove all the media queries for .about-text h1 */
