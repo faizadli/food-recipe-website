@@ -559,6 +559,23 @@ footer .mb-0::after {
     color: var(--primary-color);
 }
 
+/* About Page Styles */
+.about-description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-description p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+
+
 /* Remove these styles */
 .about-text h1 {
     font-size: 5rem;
