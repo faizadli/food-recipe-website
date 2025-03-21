@@ -107,8 +107,14 @@ main {
 }
 
 .banner {
-    height: 400px;
-    background: url('../assets/cooking.jpeg');
+    .cooking-banner {
+        min-height: 400px;
+        display: flex;
+        align-items: center;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    background: url('../assets/cooking-1.jpeg');
     background-size: cover;
     background-position: center bottom;
     display: flex;
@@ -125,7 +131,7 @@ main {
     color: #ffffff;
 }
 
-.banner-content .btn-outline-primary {
+.btn-outline-primary {
     background-color: white;
     border-color: white;
     color: var(--primary-color);
