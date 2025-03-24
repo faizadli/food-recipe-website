@@ -116,17 +116,18 @@ main {
     }
     background: url('../assets/cooking-1.jpeg');
     background-size: cover;
-    background-position: center bottom;
+    background-position: center;
+    min-height: 600px;
     display: flex;
     align-items: flex-end;
     border-radius: 10px;
     overflow: hidden;
-    margin-top: 6rem;  /* Added margin top */
+    margin-top: 6rem;
 }
 
 .banner-content {
     background: linear-gradient(to top, rgba(255, 107, 107, 0.9), transparent);
-    padding: 2rem;
+    padding: 3rem;
     width: 100%;
     color: #ffffff;
 }
